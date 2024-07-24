@@ -1,0 +1,38 @@
+Testing the API Endpoints with Postman
+
+---------------------------------------------------------------------
+Add Student:
+
+Method: POST
+URL: http://127.0.0.1:5000/addStudent/
+Body: raw with JSON format: json
+Copy code
+{
+  "name": "John Doe",
+  "age": 20
+}
+
+---------------------------------------------------------------------
+Get All Student Details:
+
+Method: GET
+URL: http://127.0.0.1:5000/getAllStudent_Details/
+
+---------------------------------------------------------------------
+Update Student:
+
+Method: PUT
+URL: http://127.0.0.1:5000/updateStudent/1/ (Replace 1 with the actual student ID you want to update)
+Body: raw with JSON format:
+json
+Copy code
+{
+  "name": "John Doe Updated",
+  "age": 21
+}
+
+---------------------------------------------------------------------
+Delete Student:
+
+Method: DELETE
+URL: http://127.0.0.1:5000/deleteStudent/1/ (Replace 1 with the actual student ID you want to delete)
