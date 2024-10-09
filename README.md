@@ -59,28 +59,6 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 
 3. The application will be available at `http://localhost:5000/` (or `http://localhost:8000/` for FastAPI).
 
-## Example Usage
-
-- **Create a new record**:
-  ```bash
-  curl -X POST http://localhost:5000/records -H "Content-Type: application/json" -d '{"name": "Sample", "data": {"year": 2021}}'
-  ```
-
-- **Retrieve all records**:
-  ```bash
-  curl -X GET http://localhost:5000/records
-  ```
-
-- **Update a record**:
-  ```bash
-  curl -X PUT http://localhost:5000/records/1 -H "Content-Type: application/json" -d '{"name": "Updated Sample", "data": {"year": 2022}}'
-  ```
-
-- **Delete a record**:
-  ```bash
-  curl -X DELETE http://localhost:5000/records/1
-  ```
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
